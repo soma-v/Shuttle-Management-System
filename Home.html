@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			width: 500px;
+			margin: 50px auto;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			padding: 50px;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+
+		button {
+			background-color: #008CBA;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 18px;
+			margin: 10px;
+		}
+
+		button:hover {
+			background-color: #006080;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Our Site!</h1>
+		<p>Please select your login type:</p>
+		<button onclick="window.location.href='users/login.php'">Login as User</button>
+		<button onclick="window.location.href='admin/login.php'">Login as Admin</button>
+	</div>
+</body>
+</html>
